@@ -3,22 +3,22 @@
 
 - 🔭 I’m currently working on **React Projects.**
 
-- 👯 I’m looking to collaborate on **projects based on MERN stack.**
+- 💻 I’m looking to collaborate on **projects based on MERN stack.**
 
 - 💬 Ask me about **MERN stack!**
 
-- 📫 How to reach me **anmoljain987@gmail.com**
+- 📲 Reach me at **anmoljain987@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1MHFoRv2KB3dpfOxIGYpXqszpDkd5HOJO/view?usp=sharing](https://drive.google.com/file/d/1MHFoRv2KB3dpfOxIGYpXqszpDkd5HOJO/view?usp=sharing)
+- 📄 Know about my experiences and skill from **[https://drive.google.com/file/d/1MHFoRv2KB3dpfOxIGYpXqszpDkd5HOJO/view?usp=sharing](https://drive.google.com/file/d/1MHFoRv2KB3dpfOxIGYpXqszpDkd5HOJO/view?usp=sharing)**
 
-- 📄 Check my portfolio <a href="https://anmol-jain-portfolio.vercel.app/" target="_blank">https://anmol-jain-portfolio.vercel.app/</a>
+- 🎨 All of my projects are available at <a href="https://anmol-jain-portfolio.vercel.app/" target="_blank">https://anmol-jain-portfolio.vercel.app/</a>
 
 - 🏓 Beside That **I am a Professional Table Tennis Player.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/anmoljain987/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vishal-chauhan-71787586/" height="30" width="40" /></a>
-<a href="https://instagram.com/llanmoljainll" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="vishalchauhan5622" height="30" width="40" /></a><a href="https://twitter.com/IamAnmolJain" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="iamanmoljain" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/anmoljain987/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/anmoljain987/" height="30" width="40" /></a>
+<a href="https://instagram.com/llanmoljainll" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="llanmoljainll" height="30" width="40" /></a><a href="https://twitter.com/IamAnmolJain" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="IamAnmolJain" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>

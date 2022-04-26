@@ -9,9 +9,9 @@
 
 - 📲 Reach me at **anmoljain987@gmail.com**
 
-- 📄 Know about my experiences and skill from **[My Resume](https://drive.google.com/file/d/1MHFoRv2KB3dpfOxIGYpXqszpDkd5HOJO/view?usp=sharing)**
+- 📄 Know about my experiences and skill from **[My Resume](https://drive.google.com/file/d/13B5--boEf9JNZp2a5ZK06HM_DaAKlNkD/view?usp=sharing)**
 
-- 🎨 All of my projects are available at <a href="https://anmol-jain-portfolio.vercel.app/" target="_blank">My Portfolio</a>
+- 🎨 All of my projects are available at <a href="https://anmoljain987.vercel.app/" target="_blank"><img src="https://user-images.githubusercontent.com/96873348/165311642-1a913f17-eaec-4e79-83ea-152be2a42a7e.png" width="30px" /> My Portfolio</a>
 
 - 🏓 Beside That **I am a Professional Table Tennis Player.**
 

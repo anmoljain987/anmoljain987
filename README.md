@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Anmol Jain</h1>
+<h1 align="center">Hi <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 30px>, I'm Anmol Jain</h1>
 <h3 align="center"> A passionate full stack developer from India. Right now I have finished my full stack web development cousre from Masai School, Bengaluru. I love to learn and explore new arenas. I am highly-proficient in MERN stack and also have good knowledge of Data Structures and Algorithms. I am eager to learn and ready to contribute to the development of an organization and also open to work as a freelancer.</h3>
 
 - 🔭 I’m currently working on **React Projects.**

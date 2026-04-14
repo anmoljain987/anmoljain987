@@ -18,7 +18,7 @@ Focused on high-performance systems, analytics, and AI-driven workflows.
 ### 🔥 Key Impact
 
 - 💰 Reduced infrastructure cost by **~$3000/month** through database and data flow optimization  
-- ⚡ Built systems focused on **real-time data visibility & fast user actionability**  
+- ⚡ Built systems handling **10M+ rows of data efficiently**, enabling fast querying and real-time insights  
 - 📊 Designed and optimized **analytical dashboards & decision-making systems**  
 - 🏗️ Improved **data storage architecture, query performance, and system efficiency at scale**  
 

@@ -4,7 +4,7 @@
 
 <p align="center">
 I build the data and automation platform behind two advertising SaaS products.<br>
-Twelve third-party APIs in, one analytics schema out.
+Fifteen third-party data sources in, one analytics schema out.
 </p>
 
 <p align="center">
@@ -24,14 +24,14 @@ Every number on this page is measured, not estimated. See <a href="#how-these-nu
 ### What I work on
 
 - **~40 of the ~95 microservices** behind FabFunnel (marketing automation) and Lookfinity (multi-tenant ad platform)
-- **The integration layer.** Meta, Google, TikTok, Snapchat, NewsBreak, OpenAI Ads, BIGO and others, each with different auth, rate limits, pagination and metric definitions, normalised so one query compares spend across all of them
+- **The whole integration surface.** Twelve ad platforms (Meta, Google, TikTok, Snapchat, NewsBreak, OpenAI Ads, BIGO and others) plus the Voluum, Redtrack and Clickflare tracker sources. Every one has different auth, rate limits, pagination and metric definitions. I own the layer that reconciles all of them into a single model, so one query compares spend and revenue across every source.
 - **Kafka → Vector → ClickHouse.** Four production clusters, ~2.3B rows stored, ~600B scanned per month, held at 113-216 ms p95
 - **The automation engine.** Rule evaluations on a strict 15-minute cycle, ~1,700 runs/day scanning ~5.8B rows, executing budget and status changes against live advertiser accounts
 - **A team of three engineers,** while staying hands-on across architecture, infrastructure and debugging
 
 ### Selected work
 
-- **Originated the integration architecture.** First in Lookfinity, then rebuilt with better logic for FabFunnel. Started 7 of the 9 integration services, including the one every later service is cloned from. The playbook I wrote for it halved from-scratch build time.
+- **Originated the integration architecture.** First in Lookfinity, then rebuilt with better logic for FabFunnel. I started most of the platform services myself, including the one every later service is cloned from, and built the field-catalog and query engine that makes platform and tracker data comparable. The playbook I wrote for it halved from-scratch build time.
 - **Security and reliability audit across 44 services.** 770 evidence-backed findings, then re-verified closure rather than assuming it. Remediated platform-wide defects in multi-tenant auth, SQL parameterisation and dependency resolution.
 - **Automated testing where there was none.** A GraphQL contract and resolver harness that runs each service's real composed schema with only the I/O boundary mocked.
 - **The engineering standards layer.** 122 task-level implementation guides across 42 repositories, plus a cross-service decision ledger.
@@ -48,7 +48,7 @@ Not rounded up from memory. Each figure came out of a system I can query again:
 |---|---|
 | 600B rows/month, 113-216 ms p95 | `system.query_log` across four production ClickHouse clusters, 30-day window |
 | ~1,700 automation runs/day, 15-minute cycle | same, filtered to the rule engine's DB user. 100.0% of its queries land on :00/:15/:30/:45 |
-| 7 of 9 integration services | first-commit authorship across the service repos |
+| 15 integration sources reconciled | 12 platform service repos plus the tracker query builders in the reporting layer |
 | 770 audit findings, 122 guides, 42 repos | counted in the documentation repo |
 | ~40 of ~95 services | the company's service ownership register |
 

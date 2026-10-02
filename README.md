@@ -1,74 +1,59 @@
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="40">, I'm Anmol Jain</h1>
+<h1 align="center">Anmol Jain</h1>
 
-<h3 align="center">SDE-2 • Full Stack Engineer • Data & Performance</h3>
+<p align="center"><b>SDE-II · Team Lead</b> at Idea Clan — platform &amp; distributed systems</p>
 
 <p align="center">
-Building scalable, data-intensive systems with focus on analytics, performance, and AI-driven workflows.
+I build the data and automation platform behind two advertising SaaS products.<br>
+Twelve third-party APIs in, one analytics schema out.
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/4%2B%20Years-Experience-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/ClickHouse-Primary-orange?style=flat-square" />
-<img src="https://img.shields.io/badge/10M%2B-Rows-green?style=flat-square" />
-<img src="https://img.shields.io/badge/%243000%2Fmo-Saved-success?style=flat-square" />
+<img src="https://img.shields.io/badge/owns-~40_of_95_services-1C3557?style=flat-square" />
+<img src="https://img.shields.io/badge/ClickHouse-600B%2B_rows%2Fmonth-F5A623?style=flat-square" />
+<img src="https://img.shields.io/badge/p95-113--216ms-2E7D32?style=flat-square" />
+<img src="https://img.shields.io/badge/platform_integrations-12-6A1B9A?style=flat-square" />
+<img src="https://img.shields.io/badge/at_Idea_Clan-4_years-0B6E99?style=flat-square" />
 </p>
 
 ---
 
-### ⚡ Summary
+### What I work on
 
-- SDE-2 with **4+ years** across full stack & system design  
-- Strong in **TypeScript, Next.js, Node.js, React**  
-- Built **analytics systems handling 10M+ rows**  
-- Optimized infra → **saved ~$3000/month**  
-- Experienced in **ClickHouse-based high-performance data systems**  
-- Hands-on with **DevOps, CI/CD, AWS**
+- **~40 of the ~95 microservices** behind FabFunnel (marketing automation) and Lookfinity (multi-tenant ad platform)
+- **The integration layer** — Meta, Google, TikTok, Snapchat, NewsBreak, OpenAI Ads, BIGO and others, each with different auth, rate limits, pagination and metric definitions, normalised so one query compares spend across all of them
+- **Kafka → Vector → ClickHouse** — four production clusters, ~2.3B rows stored, ~600B scanned per month, held at 113–216 ms p95
+- **The automation engine** — rule evaluations on a strict 15-minute cycle, ~1,700 runs/day scanning ~5.8B rows, executing budget and status changes against live advertiser accounts
+- **A team of three engineers**, while staying hands-on across architecture, infrastructure and debugging
 
----
+### Selected work
 
-### 🔥 Work Highlights
+- **Originated the integration architecture** — first in Lookfinity, then rebuilt with better logic for FabFunnel. Started 7 of the 9 integration services, including the one every later service is cloned from. The playbook I wrote for it halved from-scratch build time.
+- **Security and reliability audit across 44 services** — 770 evidence-backed findings, then re-verified closure rather than assuming it. Remediated platform-wide defects in multi-tenant auth, SQL parameterisation and dependency resolution.
+- **Automated testing where there was none** — a GraphQL contract and resolver harness that runs each service's real composed schema with only the I/O boundary mocked.
+- **The engineering standards layer** — 122 task-level implementation guides across 42 repositories, plus a cross-service decision ledger.
 
-- Designed **data-heavy analytics platforms** with fast query performance  
-- Built systems for **digital & affiliate marketing ecosystems**  
-- Integrated **Stripe-based payment flows** (production use)  
-- Delivered **freelance + team projects**, including a **Canada-based payment application**  
-- Improved **data architecture, query speed, and system scalability**
+### On AI
 
----
+I use it heavily — investigation, code review, cross-repository analysis, large-scale audits — and I built the tooling the team uses for it, including an MCP server over our own platform data. The value isn't typing faster. It's taking on problems that would otherwise be too wide to attempt, and spending the time saved on judgement instead.
 
-### 🤖 AI
+### Stack
 
-- Used AI to **increase dev velocity & reduce manual work**  
-- Built **AI-powered image/video generation workflows**  
-- Mentored devs on **practical AI usage**
+**Frontend** React · Next.js · TypeScript · Redux Toolkit · Apollo Client
+**Backend** Node.js · TypeScript · GraphQL (Apollo Federation) · Express · TypeORM
+**Data** ClickHouse · PostgreSQL · MySQL · MongoDB · Redis · Kafka · RabbitMQ · Vector
+**Infrastructure** Kubernetes · Helm · ArgoCD / GitOps · Docker · AWS · Jenkins · Grafana / Loki
 
----
+### Before software
 
-### 🧑‍💻 Stack
-
-**Frontend:** React, Next.js, TypeScript  
-**Backend:** Node.js, Express  
-
-**Databases:**  
-ClickHouse → MySQL → PostgreSQL → MongoDB  
-
-**Others:** AWS, CI/CD, Firebase, Stripe  
+National-level table tennis player and coach. Coached 50+ students over five years, producing 15 state and 7 national players.
 
 ---
-
-### 🌐 Links
-
-- Portfolio: https://anmoljain987.vercel.app/  
-- Resume: https://drive.google.com/file/d/13B5--boEf9JNZp2a5ZK06HM_DaAKlNkD/view?usp=sharing  
 
 <p align="center">
 <a href="https://www.linkedin.com/in/anmoljain987/"><img src="https://skillicons.dev/icons?i=linkedin" height="35"/></a>
 <a href="https://twitter.com/IamAnmolJain"><img src="https://skillicons.dev/icons?i=twitter" height="35"/></a>
-<a href="https://instagram.com/anmollljain"><img src="https://skillicons.dev/icons?i=instagram" height="35"/></a>
 <a href="mailto:anmoljain987@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="35"/></a>
 </p>
-
----
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=anmoljain987&show_icons=true&theme=radical" height="150"/>
